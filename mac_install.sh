@@ -14,6 +14,6 @@ brew update
 brew install autossh
 
 echo "Getting sshuttle"
-git clone https://github.com/pthrasher/sshuttle.git /opt/sshuttle
+git clone https://github.com/rombob/sshuttle.git /opt/sshuttle
 cd /opt/sshuttle/src/
 echo "alias sshuttle=$(pwd)/sshuttle" >> $HOME/.bash_profile
